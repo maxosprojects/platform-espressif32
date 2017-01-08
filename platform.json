@@ -18,7 +18,16 @@
     "https://sourceforge.net/projects/platformio-storage/files/packages/manifest.json/download",
     "http://dl.platformio.org/packages/manifest.json",
     "https://raw.githubusercontent.com/eerimoq/simba/master/make/platformio/manifest.json",
-    "https://raw.githubusercontent.com/eerimoq/pumbaa/master/make/platformio/manifest.json"
+    "https://raw.githubusercontent.com/eerimoq/pumbaa/master/make/platformio/manifest.json",
+    {
+      "framework-arduinoespressif32": [
+        {
+          "url": "https://github.com/maxosprojects/arduino-esp32.git",
+          "version": "1.0.3",
+          "system": "*"
+        }
+      ]
+    }
   ],
   "frameworks": {
     "arduino": {
